@@ -126,9 +126,7 @@ h2 {
 .research-banner {
   width: 100%;
   display: block;
-  height: 22vh;
-  min-height: 160px;
-  max-height: 260px;
+  height: clamp(220px, 28vh, 360px);
   object-fit: cover;
   object-position: top center;
 }
