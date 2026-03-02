@@ -120,17 +120,13 @@ h2 {
 
 .research-banner-wrap {
   margin-bottom: 1rem;
-  height: clamp(220px, 28vh, 360px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .research-banner {
   width: 100%;
   max-width: 100%;
   display: block;
-  height: 100%;
+  height: clamp(220px, 28vh, 360px);
   object-fit: contain;
   object-position: center;
 }
