@@ -118,6 +118,18 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.research-banner-wrap {
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.research-banner {
+  width: 100%;
+  display: block;
+  max-height: 240px;
+  object-fit: cover;
+}
+
 .grid-two {
   display: grid;
   grid-template-columns: 1fr 1fr;
