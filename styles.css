@@ -121,19 +121,17 @@ h2 {
 .research-banner-wrap {
   margin-bottom: 1rem;
   overflow: hidden;
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  border-left: 0;
-  border-right: 0;
-  border-radius: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .research-banner {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   display: block;
   height: clamp(220px, 28vh, 360px);
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center;
 }
 
 .grid-two {
