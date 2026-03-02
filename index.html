@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <base href="./" />
+  <title>Elie Tamer | Harvard Economics</title>
+  <meta name="description" content="Elie Tamer — Louis Berkman Professor of Economics and Chair of the Department of Economics at Harvard University." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#home">Elie Tamer</a>
+      <nav class="nav">
+        <a href="#bio">Bio</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="#research">Fields</a>
+        <a href="#contact">Contact</a>
+        <a href="#links">Links</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="container layout">
+    <section class="hero card">
+      <img
+        class="portrait"
+        src="https://lh3.googleusercontent.com/sitesv/APaQ0SQEo_Mbb7PpptsNk6rcPoHDYY10-gIQkBrG-NzYdNsmHpszkBVNU4MzTlngfIdPhuifRWWml_csUZb7b-2HFuj29OOe3WY4cNoBijhGTNXcaz5NY_lv4V3isB1kZRYTnIQEmBVNjarDUxe2vguWNjsBP7F9-FafHaTwkxABg9lHDHFh55XoQIfY9hTzIqprhdqPr1Hh0xuyD01YevTJP5Oa2leZX7SKwFqV3aE=w1280"
+        alt="Portrait of Elie Tamer"
+      />
+      <div>
+        <h1>Elie Tamer</h1>
+        <p class="subtitle">Louis Berkman Professor of Economics and Chair of the Department of Economics</p>
+        <p class="subtitle"><a href="https://www.economics.harvard.edu/" target="_blank" rel="noopener">Harvard University</a></p>
+        <div class="chips" id="research">
+          <span>Econometrics</span>
+          <span>Applied Econometrics</span>
+          <span>Empirical Industrial Organization</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="bio" class="card section">
+      <h2>Bio</h2>
+      <p>
+        Elie Tamer is an economist whose research spans econometric theory, applied econometrics,
+        and empirical industrial organization. He was a coeditor of
+        <a href="https://www.econometricsociety.org/publications/econometrica" target="_blank" rel="noopener">Econometrica</a>,
+        a coeditor at
+        <a href="https://www.econometricsociety.org/publications/quantitative-economics" target="_blank" rel="noopener">Quantitative Economics</a>,
+        and co-managing editor of the
+        <a href="https://www.sciencedirect.com/journal/journal-of-econometrics" target="_blank" rel="noopener">Journal of Econometrics</a>.
+        Tamer is a fellow of the
+        <a href="https://www.econometricsociety.org/" target="_blank" rel="noopener">Econometric Society</a>,
+        and a member of the
+        <a href="https://www.amacad.org/" target="_blank" rel="noopener">American Academy of Arts and Sciences</a>.
+        He is currently chair of Harvard’s Department of Economics.
+      </p>
+    </section>
+
+    <section class="grid-two">
+      <article id="contact" class="card section">
+        <h2>Contact</h2>
+        <p><strong>Assistant:</strong> Eric Unverzagt</p>
+        <p><strong>Phone:</strong> <a href="tel:+16174964798">617.496.4798</a></p>
+        <p><strong>Email:</strong> <a href="mailto:eunverz@fas.harvard.edu">eunverz@fas.harvard.edu</a></p>
+      </article>
+
+      <article id="links" class="card section">
+        <h2>Links</h2>
+        <ul class="clean-list">
+          <li><a href="teaching.html">Teaching (GitHub site)</a></li>
+          <li><a href="research.html">Research and Writing (GitHub site)</a></li>
+          <li><a href="https://sites.google.com/g.harvard.edu/elietamer/bio" target="_blank" rel="noopener">Bio</a></li>
+          <li><a href="https://sites.google.com/g.harvard.edu/elietamer/teaching" target="_blank" rel="noopener">Teaching</a></li>
+          <li><a href="https://sites.google.com/g.harvard.edu/elietamer/research-and-writing" target="_blank" rel="noopener">Research and Writing</a></li>
+          <li><a href="https://sites.google.com/g.harvard.edu/elietamer/office-hours" target="_blank" rel="noopener">Office Hours</a></li>
+          <li><a href="https://www.economics.harvard.edu/people/elie-tamer" target="_blank" rel="noopener">Harvard Profile</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Elie Tamer</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

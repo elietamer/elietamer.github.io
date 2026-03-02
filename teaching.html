@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <base href="./" />
+  <title>Teaching | Elie Tamer</title>
+  <meta name="description" content="Teaching page for Elie Tamer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="index.html">Elie Tamer</a>
+      <nav class="nav">
+        <a href="index.html#bio">Bio</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container layout">
+    <section class="card section">
+      <h1>Teaching</h1>
+      <p>
+        Teaching information is available on the official Harvard Google Site page.
+        Use the link below for the latest course details and schedules.
+      </p>
+      <p>
+        <a href="https://sites.google.com/g.harvard.edu/elietamer/teaching" target="_blank" rel="noopener">
+          View Teaching Page
+        </a>
+      </p>
+    </section>
+
+    <section class="card section">
+      <h2>Office Hours</h2>
+      <p>
+        Office hours and related logistics are maintained here:
+        <a href="https://sites.google.com/g.harvard.edu/elietamer/office-hours" target="_blank" rel="noopener">
+          Office Hours
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Elie Tamer</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
