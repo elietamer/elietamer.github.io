@@ -126,7 +126,8 @@ h2 {
   width: 100%;
   max-width: 100%;
   display: block;
-  height: auto;
+  height: 180px;
+  object-fit: contain;
 }
 
 .grid-two {
